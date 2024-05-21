@@ -44,7 +44,7 @@ click = {version = "^8.1.3", allow-prereleases = true}
 constantly = {version = "^15.1.0", allow-prereleases = true}
 daphne = {version = "^4.0.0", allow-prereleases = true}
 defusedxml = {version = "^0.7.1", allow-prereleases = true}
-django = "5.0"
+django = "5.0.3"
 django-allauth = {version = "^0.52.0", allow-prereleases = true}
 django-environ = {version = "^0.10.0", allow-prereleases = true}
 django-picklefield = {version = "^3.1", allow-prereleases = true}
@@ -52,7 +52,7 @@ django-redis = {version = "^5.2.0", allow-prereleases = true}
 django-rq = {version = "^2.8.1", allow-prereleases = true}
 djangorestframework = {version = "^3.14.0", allow-prereleases = true}
 django-flags = {version = "^5.0.12", allow-prereleases = true}
-gunicorn = {version = "^20.1.0", allow-prereleases = true}
+gunicorn = {version = ">=20.1,<23.0", allow-prereleases = true}
 h11 = {version = "^0.14.0", allow-prereleases = true}
 h2 = {version = "^4.1.0", allow-prereleases = true}
 httpcore = {version = "^0.16.3", allow-prereleases = true}
@@ -87,7 +87,7 @@ rq = {version = "^1.15.1", allow-prereleases = true}
 sendgrid = {version = "^6.10.0", allow-prereleases = true}
 service-identity = {version = "^21.1.0", allow-prereleases = true}
 sqlalchemy = {version = "^1.4.46", allow-prereleases = true}
-sqlparse = {version = "^0.4.3", allow-prereleases = true}
+sqlparse = {version = ">=0.4.3,<0.6.0", allow-prereleases = true}
 tenacity = {version = "^8.2.2", allow-prereleases = true}
 typer = {version = "^0.7.0", allow-prereleases = true}
 typing-inspect = {version = "^0.8.0", allow-prereleases = true}
